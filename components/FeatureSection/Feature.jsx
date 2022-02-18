@@ -10,7 +10,7 @@ const Feature = ({ img, alt, h2, p, width, height }) => {
         className="bg-[hsl(257,27%,26%)] w-[88px] h-[88px] rounded-full flex items-center justify-center
         relative top-[-44px]"
       >
-        <Image src={img} alt={alt} width={width} height={height} />
+        <Image src={img} alt={alt} width={width} height={height} priority />
       </div>
       <h2 className="text-[hsl(255,11%,22%)] font-bold relative top-[-16px] mt-[6px] text-[20px]">
         {h2}
