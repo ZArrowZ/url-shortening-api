@@ -1,8 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 
-const SocialLink = ({ href, d }) => {
+const SocialLink = ({ href, d, name }) => {
   return (
-    <a href={href} className="cursor-pointer" rel="noreferrer" target="_blank">
+    <a
+      href={href}
+      aria-label={name}
+      className="cursor-pointer"
+      rel="noreferrer"
+      target="_blank"
+    >
       <svg
         className="fill-white md:hover:fill-[hsl(180,66%,49%)] md:duration-300"
         xmlns="http://www.w3.org/2000/svg"
