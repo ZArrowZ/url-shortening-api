@@ -15,9 +15,7 @@ const Feature = ({ img, alt, h2, p, width, height }) => {
       <h2 className="text-[hsl(255,11%,22%)] font-bold relative top-[-16px] mt-[6px] text-[20px]">
         {h2}
       </h2>
-      <p className="text-[hsl(0,0%,75%)] text-[14px] md:text-[16px] mb-[8px]">
-        {p}
-      </p>
+      <p className="text-[#A4A3A6]  text-[14px] md:text-[16px] mb-[8px]">{p}</p>
     </div>
   );
 };

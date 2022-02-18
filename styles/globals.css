@@ -12,6 +12,6 @@
     @apply overflow-x-hidden bg-[#f0f1f6];
   }
   .listItem {
-    @apply md:text-[#BFBFBF] font-bold md:hover:text-black cursor-pointer duration-300;
+    @apply md:text-[#A4A3A6] font-bold md:hover:text-black cursor-pointer duration-300;
   }
 }

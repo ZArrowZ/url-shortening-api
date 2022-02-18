@@ -7,7 +7,7 @@ const SiteFeatures = () => {
         <h1 className="text-[1.60rem] md:text-[2.3rem] font-bold text-[hsl(255,11%,22%)] text-center my-4">
           Advanced Statistics
         </h1>
-        <p className="text-[hsl(0,0%,75%)] text-center md:text-[18px]">
+        <p className="text-[#A4A3A6]  text-center md:text-[18px]">
           Track how your links are performing across the web with our advanced
           statistics dashboard
         </p>

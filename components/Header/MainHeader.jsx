@@ -22,11 +22,14 @@ const MainHeader = () => {
         <h1 className="font-bold text-fontClamp cmd:leading-[4.5rem] text-[hsl(255,11%,22%)] mt-[2rem]">
           More than just <br /> shorter links
         </h1>
-        <p className="text-[17px] text-[hsl(0,0%,75%)] md:max-w-[500px]">
+        <p className="text-[18px] text-[#A4A3A6]  md:max-w-[500px]">
           Build your brand&apos;s recognition and get detailed insights on how
           your links are performing.
         </p>
-        <Button name="Get Started" style="w-[100%] p-[12px] max-w-[197px]" />
+        <Button
+          name="Get Started"
+          style="w-[100%] text-[18px] p-[12px] max-w-[197px]"
+        />
       </div>
     </div>
   );

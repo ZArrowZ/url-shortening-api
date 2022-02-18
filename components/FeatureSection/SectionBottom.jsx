@@ -9,7 +9,10 @@ const SectionBottom = () => {
       <h2 className="text-[24px] md:text-[42px] font-bold my-[18px]">
         Boost your links today
       </h2>
-      <Button name="Get Started" style="w-full p-[12px] max-w-[197px]" />
+      <Button
+        name="Get Started"
+        style="w-full text-[18px] p-[12px] max-w-[197px]"
+      />
     </section>
   );
 };
