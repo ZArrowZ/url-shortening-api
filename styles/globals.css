@@ -5,7 +5,7 @@
 
 @layer base {
   * {
-    @apply font-["Poppins"] box-border;
+    @apply font-poppins box-border;
   }
   html,
   body {
