@@ -30,7 +30,7 @@ const Nav = () => {
       </nav>
       <NavLinks
         style={`${
-          isMenuOpen ? "scale-y-0" : "scale-y-100"
+          !isMenuOpen ? "scale-y-0" : "scale-y-100"
         } z-20 select-none origin-top flex md:hidden bg-[#3B3054] flex-col rounded-[8px] items-center 
         duration-100 px-[24px] absolute w-[calc(100%-48px)] py-[40px] text-white text-center top-[6rem]`}
         btnStyle="flex flex-col border-t-[1px] border-t-[#544a6d] w-full items-center"
