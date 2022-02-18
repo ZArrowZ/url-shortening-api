@@ -57,6 +57,12 @@ const handleFormSubmit = async (
       removeErrorMassage(input, setErrorMassage);
     } else if (isSameLink) {
       addErrorMassage(input, setErrorMassage, "This link is already exist");
+    } else {
+      addErrorMassage(
+        input,
+        setErrorMassage,
+        "That's already a shortened link"
+      );
     }
   } else {
     addErrorMassage(input, setErrorMassage, "Please add a valid Link");
