@@ -16,6 +16,7 @@ const Nav = () => {
             width={121}
             height={33}
             className="select-none cursor-pointer"
+            priority
           />
         </div>
         <NavLinks
