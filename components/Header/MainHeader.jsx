@@ -3,7 +3,7 @@ import Button from "../buttons/Button";
 
 const MainHeader = () => {
   return (
-    <div className="md:flex max-w-[1110px] md:w-screen m-auto mb-[4rem]">
+    <div className="md:flex max-w-[1110px] md:w-screen m-auto mb-[5.25rem]">
       <div
         className="relative w-[130vw] m-auto order-2 md:left-[15rem] max-w-[640px]
         md:max-w-[655px]"
