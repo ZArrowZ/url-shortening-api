@@ -8,7 +8,6 @@ const HeadTag = () => {
         name="description"
         content="Link shorteners work by transforming any long URL into a shorter and make it more readable."
       ></meta>
-      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
     </Head>
   );
 };
