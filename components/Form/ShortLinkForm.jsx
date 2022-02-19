@@ -39,7 +39,7 @@ const ShortLinkForm = () => {
         }`}
       >
         <input
-          className="w-full rounded-[4px] p-2 outline-none min-h-[48px] md:min-h-[64px] pl-[30px] "
+          className="md:placeholder:text-[18px] w-full rounded-[4px] p-2 outline-none min-h-[48px] md:min-h-[64px] pl-[1rem] md:pl-[32px] "
           type="text"
           placeholder="Shorten a link here..."
           name="shortLikInput"
