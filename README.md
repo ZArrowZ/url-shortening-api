@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ZArrowZ/url-shortening-api)
-- Live Site URL: [Add live site URL here](https://url-shortening-api-two-sage.vercel.app/)
+- Solution URL: [here](https://github.com/ZArrowZ/url-shortening-api)
+- Live Site URL: [here](https://url-shortening-api-two-sage.vercel.app/)
 
 ## My process
 
